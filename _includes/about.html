@@ -1,0 +1,21 @@
+<div class="container intro-container">
+  {% for about in site.about.content %}
+    {%- if about.language == page.language -%}
+      <h3>{{ about.title }}</h3>
+    {%- endif -%}
+  {% endfor %}
+  <div class="row clearfix">
+    {%- if site.about.profile_image -%}
+      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url({{ site.about.profile_image | relative_url }})"></span>
+      </div>
+    {%- endif -%}
+    <div class="{{ 'col-xs-12 ' }}{%- if site.about.profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+      {% for about in site.about.content %}
+        {%- if about.language == page.language -%}
+          {{ about.body | strip | markdownify }}
+        {%- endif -%}
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+{%- if include.content.language == page.language -%}
+<div class="row clearfix">
+  <div class="col-md-12">
+    {{ include.content.body | strip | markdownify }}
+  </div>
+</div>
+{%- endif -%}
