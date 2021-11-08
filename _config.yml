@@ -177,7 +177,7 @@ content:
           Derzeit arbeite ich bei [Netlight](https://www.netlight.com/) als IT-Berater, wodurch ich verschiedenste Branchen und Unternehmen sowie deren Kultur, Struktur und dort 
           eingesetzte Technologien kennenlernen kann. Ebenso bietet mir Netlight die Möglickeit mich immer wieder in neuen Rollen auszuprobieren und mich persönlich 
           weiterentwickeln zu können. So war es mir möglich vielseitige Erfahrungen zu sammeln - angefangen bei der Implementierung von `JavaFX` Fat Clients in einem kleinen Team nach `Kanban` 
-          bis hin zur Entwicklung komplexer `event-driven Microservices` und `Micro-Frontends` mit bis zu 6 `Scrum`-Teams, welche nach dem `Nexus`-Framework organisiert wurden. 
+          bis hin zur Entwicklung komplexer `Event-Driven Microservices` mit `GoLang` und `NestJS` sowie `Micro-Frontends` mit `React` in bis zu 6 `Scrum`-Teams, welche nach dem `Nexus`-Framework organisiert wurden. 
       - layout: top-middle
         language: en
         title: Netlight Consulting
@@ -187,7 +187,7 @@ content:
           I am currently working at [Netlight](https://www.netlight.com/) as an IT consultant, which allows me to get to know a wide variety of industries and companies 
           as well as their culture, structure and the technologies used there. Netlight also offers me the opportunity to try out new roles and to develop me personally in different areas. 
           This way I was able to accumulate wide-ranging knowledge - from the implementation of `JavaFX` Fat Clients in a small team using `Kanban` to developing complex `event-driven microservices` 
-          and `micro frontends` with up to 6 `Scrum` teams, which were organized using the `Nexus` framework. 
+          using `GoLang` and `NestJS` as well as `micro frontends` using `React` with up to 6 `Scrum` teams, which were organized according to `Nexus` framework. 
       # ---
   - title:
       - language: de
