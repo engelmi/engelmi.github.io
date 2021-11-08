@@ -168,31 +168,26 @@ content:
     layout: list
     content:
       # ---
-      - layout: left
+      - layout: top-middle
         language: de
         title: Netlight Consulting
         sub_title: IT-Consultant
         caption: Januar 2019 - heute
         description: | 
-          Derzeit arbeite ich bei [Netlight](https://www.netlight.com/) als IT-Berater, wodurch ich verschiedenste Branchen und Unternehmen sowie deren Struktur und dort 
+          Derzeit arbeite ich bei [Netlight](https://www.netlight.com/) als IT-Berater, wodurch ich verschiedenste Branchen und Unternehmen sowie deren Kultur, Struktur und dort 
           eingesetzte Technologien kennenlernen kann. Ebenso bietet mir Netlight die Möglickeit mich immer wieder in neuen Rollen auszuprobieren und mich persönlich 
-          weiterentwickeln zu können. In meinen bisherigen Projekten habe ich u.a. die Rolle eines `Backend-Engineers`, `Fullstack-Developers` und `QA-Engineers` eingenommen. 
-          
-          Im Folgenden ist ein Ausschnitt der Technologien, welche ich kennenlernen konnte: 
-
-          <mark>GoLang</mark> <mark>NodeJS</mark> <mark>JavaScript/TypeScript</mark> <mark>NestJS</mark> <mark>React</mark> <mark>Puppeteer</mark> <mark>Selenium</mark> <mark>Java</mark> <mark>Allure</mark> <mark>Docker</mark> <mark>Kubernetes</mark> <mark>GitLab CI</mark> <mark>Jenkins</mark> <mark>Apache Kafka</mark> <mark>Grafana</mark> <mark>Kibana</mark> <mark>AWS</mark> <mark>SQS</mark> <mark>SNS</mark> <mark>DynamoDb</mark> <mark>PostgreSQL</mark>
-      - layout: left
+          weiterentwickeln zu können. So war es mir möglich vielseitige Erfahrungen zu sammeln - angefangen bei der Implementierung von `JavaFX` Fat Clients in einem kleinen Team nach `Kanban` 
+          bis hin zur Entwicklung komplexer `event-driven Microservices` und `Micro-Frontends` mit bis zu 6 `Scrum`-Teams, welche nach dem `Nexus`-Framework organisiert wurden. 
+      - layout: top-middle
         language: en
         title: Netlight Consulting
         sub_title: IT-Consultant
         caption: January 2019 - today
         description: | 
           I am currently working at [Netlight](https://www.netlight.com/) as an IT consultant, which allows me to get to know a wide variety of industries and companies 
-          as well as their structure and the technologies used there. Netlight also offers me the opportunity to try out new roles and to develop me personally in the areas 
-          I want. In my previous projects I have taken on the role of a `backend engineer`, a `full stack developer` and a `QA engineer`. The following is a selection of the 
-          technologies that I was able to get to know:
-
-          <mark>GoLang</mark> <mark>NodeJS</mark> <mark>JavaScript/TypeScript</mark> <mark>NestJS</mark> <mark>React</mark> <mark>Puppeteer</mark> <mark>Selenium</mark> <mark>Java</mark> <mark>Allure</mark> <mark>Docker</mark> <mark>Kubernetes</mark> <mark>GitLab CI</mark> <mark>Jenkins</mark> <mark>Apache Kafka</mark> <mark>Grafana</mark> <mark>Kibana</mark> <mark>AWS</mark> <mark>SQS</mark> <mark>SNS</mark> <mark>DynamoDb</mark> <mark>PostgreSQL</mark>
+          as well as their culture, structure and the technologies used there. Netlight also offers me the opportunity to try out new roles and to develop me personally in different areas. 
+          This way I was able to accumulate wide-ranging knowledge - from the implementation of `JavaFX` Fat Clients in a small team using `Kanban` to developing complex `event-driven microservices` 
+          and `micro frontends` with up to 6 `Scrum` teams, which were organized using the `Nexus` framework. 
       # ---
   - title:
       - language: de
