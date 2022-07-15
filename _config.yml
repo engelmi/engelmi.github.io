@@ -16,7 +16,7 @@ email: engel.michael@hotmail.de
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
@@ -91,11 +91,11 @@ content:
         quote: >
           Eine Library zum <b>A</b>spekt<b>O</b>rientierem <b>P</b>rogrammieren (AOP) in Typescript
         description: | 
-          `ts-aspect` ist eine Programmbibliothek zum Definieren und Verwenden von Aspekten, welche zur Kapselung sogenannter `Cross-Cutting Concerns`, wie z.B. Logging, 
+          *ts-aspect* ist eine Programmbibliothek zum Definieren und Verwenden von Aspekten, welche zur Kapselung sogenannter *Cross-Cutting Concerns*, wie z.B. Logging, 
           verwendet werden können. Das wiederum ermöglicht besser wartbaren und wiederverwendbaren Code zu schreiben. 
 
           Ein Ziel des Open Source Projektes ist es, eine möglichst einfach zu benutzende und gleichzeitig flexible API für das aspektorientierte Programmieren in TypeScript 
-          zur Verfügung zu stellen - ohne zusätzliche Dependencies. `ts-aspect` kann zusammen mit Frameworks wie beispielsweise `NestJS` verwendet werden 
+          zur Verfügung zu stellen - ohne zusätzliche Dependencies. *ts-aspect* kann zusammen mit Frameworks wie beispielsweise *NestJS* verwendet werden 
           (siehe [hier](https://github.com/engelmi/ts-aspect-nestjs-example)). 
 
           <mark>TypeScript</mark> <mark>AOP</mark> <mark>Cross-Cutting Concern</mark> <mark>Clean Code</mark>
@@ -111,11 +111,11 @@ content:
         quote: >
           A simplistic library for <b>A</b>spect <b>O</b>riented <b>P</b>rogramming (AOP) in TypeScript
         description: | 
-          This is a library for defining and using aspect, which can be used to encapsulate so-called `cross-cutting concerns`, such as logging. This in turn enables 
+          This is a library for defining and using aspect, which can be used to encapsulate so-called *cross-cutting concerns*, such as logging. This in turn enables 
           developers to write code that is more maintainable and reusable. 
 
           One goal of this open source project is to provide an API for aspect-oriented programming in TypeScript that is as easy to use as well as flexible - without any 
-          additional dependencies. `ts-aspect` can also be used together with frameworks such as `NestJS` (see [here](https://github.com/engelmi/ts-aspect-nestjs-example)).
+          additional dependencies. *ts-aspect* can also be used together with frameworks such as *NestJS* (see [here](https://github.com/engelmi/ts-aspect-nestjs-example)).
 
           <mark>TypeScript</mark> <mark>AOP</mark> <mark>Cross-Cutting Concern</mark> <mark>Separation of Concerns</mark> <mark>Clean Code</mark>
       # ---
@@ -131,12 +131,12 @@ content:
         quote: >
           Eine Programmbibliothek zum empfangen und senden von Nachrichten mit Amazons Simple Queuing Service (SQS)
         description: | 
-          `go-sqs` baut auf dem [AWS SDK für Go](github.com/aws/aws-sdk-go) auf und stellt einen einfach zu verwendenden Listener und Producer für SQS-Nachrichten zur Verfügung. 
+          *go-sqs* baut auf dem [AWS SDK für Go](github.com/aws/aws-sdk-go) auf und stellt einen einfach zu verwendenden Listener und Producer für SQS-Nachrichten zur Verfügung. 
           Für das Empfangen von Nachrichten wird eine error-basierte Routine genutzt. Diese ermöglicht das Definieren von individueller Logik zur Verarbeitung von 
           SQS-Nachrichten, kümmert sich um evlt. auftretende panics und löscht die Nachricht bei erfolgreicher Bearbeitung von der Queue. 
 
           Derzeit arbeite ich an einer [Sidecar](https://microservices.io/patterns/deployment/sidecar.html)-Implementierung, welche über eine REST-API die Funktionalität 
-          von `go-sqs` bereitstellt und so in Applikationen unabhängig der dort verwendeten Programmiersprache oder Frameworks integriert werden kann.  
+          von *go-sqs* bereitstellt und so in Applikationen unabhängig der dort verwendeten Programmiersprache oder Frameworks integriert werden kann.  
 
           <mark>GoLang</mark> <mark>AWS</mark> <mark>SQS</mark> <mark>Separation of Concerns</mark> <mark>Sidecar</mark> 
       - layout: top-middle
@@ -151,12 +151,12 @@ content:
         quote: >
           A simplistic library to listen for and produce messages to Amazons Simple Queuing Service (SQS)
         description: | 
-          `go-sqs` is based on the [AWS SDK for Go](github.com/aws/aws-sdk-go) and provides an easy-to-use listener and producer for SQS messages. An error-based routine 
+          *go-sqs* is based on the [AWS SDK for Go](github.com/aws/aws-sdk-go) and provides an easy-to-use listener and producer for SQS messages. An error-based routine 
           is used to receive messages. It enables the definition of custom logic for processing SQS messages, takes care of any occuring panics and deletes the message 
           from the queue on successfully processing it.
 
-          I am currently working on a [sidecar](https://microservices.io/patterns/deployment/sidecar.html) implementation which provides the functionality of `go-sqs` as a 
-          REST-API. This enables the usage of `go-sqs` within applications written in different programming languages or frameworks. 
+          I am currently working on a [sidecar](https://microservices.io/patterns/deployment/sidecar.html) implementation which provides the functionality of *go-sqs* as a 
+          REST-API. This enables the usage of *go-sqs* within applications written in different programming languages or frameworks. 
 
           <mark>GoLang</mark> <mark>AWS</mark> <mark>SQS</mark> <mark>Separation of Concerns</mark> <mark>Sidecar</mark> 
       # ---
@@ -168,26 +168,45 @@ content:
     layout: list
     content:
       # ---
+      # Red Hat
+      # ---
       - layout: top-middle
         language: de
         title: Netlight Consulting
         sub_title: IT-Consultant
-        caption: Januar 2019 - heute
+        caption: Mai 2022 - heute
         description: | 
-          Derzeit arbeite ich bei [Netlight](https://www.netlight.com/) als IT-Berater, wodurch ich verschiedenste Branchen und Unternehmen sowie deren Kultur, Struktur und dort 
-          eingesetzte Technologien kennenlernen kann. Ebenso bietet mir Netlight die Möglickeit mich immer wieder in neuen Rollen auszuprobieren und mich persönlich 
-          weiterentwickeln zu können. So war es mir möglich vielseitige Erfahrungen zu sammeln - angefangen bei der Implementierung von `JavaFX` Fat Clients in einem kleinen Team nach `Kanban` 
-          bis hin zur Entwicklung komplexer `Event-Driven Microservices` mit `GoLang` und `NestJS` sowie `Micro-Frontends` mit `React` in bis zu 6 `Scrum`-Teams, welche nach dem `Nexus`-Framework organisiert wurden. 
+          Derzeit arbeite ich bei [Red Hat](https://www.redhat.com/) als Software Engineer.  
       - layout: top-middle
         language: en
         title: Netlight Consulting
         sub_title: IT-Consultant
-        caption: January 2019 - today
+        caption: May 2019 - today
         description: | 
-          I am currently working at [Netlight](https://www.netlight.com/) as an IT consultant, which allows me to get to know a wide variety of industries and companies 
-          as well as their culture, structure and the technologies used there. Netlight also offers me the opportunity to try out new roles and to develop me personally in different areas. 
-          This way I was able to accumulate wide-ranging knowledge - from the implementation of `JavaFX` Fat Clients in a small team using `Kanban` to developing complex `event-driven microservices` 
-          using `GoLang` and `NestJS` as well as `micro frontends` using `React` with up to 6 `Scrum` teams, which were organized according to `Nexus` framework. 
+          I am currently working at [Red Hat](https://www.redhat.com/) as a Software Engineer. 
+      # ---
+      # Netlight
+      # ---
+      - layout: top-middle
+        language: de
+        title: Netlight Consulting
+        sub_title: IT-Consultant
+        caption: Januar 2019 - April 2022
+        description: | 
+          Bei [Netlight](https://www.netlight.com/) als hands-on IT-Berater hatte ich die Chance verschiedenste Branchen und Unternehmen sowie deren Kultur, Struktur und dort eingesetzte Technologien kennen zu lernen. 
+          Ebenso bot mir Netlight die Möglickeit mich immer wieder in neuen Rollen auszuprobieren sowie mich persönlich weiterentwickeln zu können. So war es mir möglich vielseitige Erfahrungen zu sammeln - angefangen 
+          bei der Implementierung von *JavaFX* Fat Clients in einem kleinen Team nach *Kanban* bis hin zur Entwicklung komplexer *Event-Driven Microservices* mit *GoLang* und *NestJS* sowie *Micro-Frontends* mit *React* 
+          in bis zu 6 *Scrum*-Teams, welche nach dem *Nexus*-Framework organisiert wurden. 
+      - layout: top-middle
+        language: en
+        title: Netlight Consulting
+        sub_title: IT-Consultant
+        caption: January 2019 - April 2022
+        description: | 
+          Working at [Netlight](https://www.netlight.com/) as an hands-on IT consultant allowed me to get to know a wide variety of industries and companies as well as their culture, structure and the technologies used there. 
+          Netlight also offered me the opportunity to try out new roles and to develop myself personally in different areas. This way I was able to accumulate wide-ranging knowledge - from the implementation of *JavaFX* Fat 
+          Clients in a small team using *Kanban* to developing complex *event-driven microservices* using *GoLang* and *NestJS* as well as *micro frontends* using *React* with up to 6 *Scrum* teams, which were organized 
+          according to *Nexus* framework. 
       # ---
   - title:
       - language: de
@@ -212,12 +231,12 @@ content:
           <br>
           <i>Evaluierung von Machine Learning Verfahren für den Einsatz in einem Testautomatisierungs-Framework für Infotainmentsysteme in Fahrzeugen</i>
           
-          Für meine Masterarbeit habe ich verschiedene Verfahren zur `Object Detection` hinsichtlich deren Anwendbarkeit in einem Testautomatisierungs-Framework untersucht. 
+          Für meine Masterarbeit habe ich verschiedene Verfahren zur *Object Detection* hinsichtlich deren Anwendbarkeit in einem Testautomatisierungs-Framework untersucht. 
           Ich entwickelte zunächst ein Programm zur automatisierten Generierung von gelabelten Trainingsdaten, da vorallem dieser Arbeitsschritt sehr zeitintensiv ist. 
-          Danach implementierte ich das `Template Matching` als klassisches Verfahren mit `Python` und `scikit`, ein Machine Learning Modell auf Basis von 
-          `HOG`-Features mit `scikit-learn` und das Deep Learning Modell `Faster R-CNN` mit `TensorFlow`. Zur Evaluierung der unterschiedlichen Verfahren nutzte 
-          ich u.a. die sogenannte `Intersection over Union` als Metrik. In einem finalen Proof Of Concept habe ich das bestehende Framework um die Funktion der 
-          `Object Detection` erweitert sowie eine Pipeline zum automatisierten Antrainieren weiterer Modelle umgesetzt. 
+          Danach implementierte ich das *Template Matching* als klassisches Verfahren mit *Python* und *scikit*, ein Machine Learning Modell auf Basis von 
+          *HOG*-Features mit *scikit-learn* und das Deep Learning Modell *Faster R-CNN* mit *TensorFlow*. Zur Evaluierung der unterschiedlichen Verfahren nutzte 
+          ich u.a. die sogenannte *Intersection over Union* als Metrik. In einem finalen Proof Of Concept habe ich das bestehende Framework um die Funktion der 
+          *Object Detection* erweitert sowie eine Pipeline zum automatisierten Antrainieren weiterer Modelle umgesetzt. 
 
           <mark>Machine Learning</mark> <mark>Computer Vision</mark> <mark>Object Detection</mark> <mark>Automation</mark> <mark>Model Evaluation</mark> <mark>Python</mark> <mark>scikit-learn</mark> <mark>Tensorflow</mark>
       - layout: top-middle
@@ -235,11 +254,11 @@ content:
           <br>
           <i>Evaluation of Machine Learning methods regarding the applicability in a test automation framework for in-vehicle infotainment systems</i>
           
-          For my master’s thesis, I examined various `Object Detection` methods regarding their applicability in a test automation framework. First, I developed a program 
-          to automate the generation of labeled training data, which later saved a lot of time as this step is very time-consuming. Then I implemented the `Template Matching` 
-          as a classic object detection method with` Python` and `scikit`, a machine learning model based on `HOG` features using `scikit-learn` and the Deep Learning model 
-          `Faster R-CNN` with `TensorFlow`. To evaluate the different approches, I used the so-called `Intersection over Union` as a metric. In a final proof of concept, 
-          I extended the existing framework by the newly developed `object detection` functionality and implemented a pipeline for the automated training of further models.
+          For my master’s thesis, I examined various *Object Detection* methods regarding their applicability in a test automation framework. First, I developed a program 
+          to automate the generation of labeled training data, which later saved a lot of time as this step is very time-consuming. Then I implemented the *Template Matching* 
+          as a classic object detection method with* Python* and *scikit*, a machine learning model based on *HOG* features using *scikit-learn* and the Deep Learning model 
+          *Faster R-CNN* with *TensorFlow*. To evaluate the different approches, I used the so-called *Intersection over Union* as a metric. In a final proof of concept, 
+          I extended the existing framework by the newly developed *object detection* functionality and implemented a pipeline for the automated training of further models.
 
           <mark>Machine Learning</mark> <mark>Computer Vision</mark> <mark>Object Detection</mark> <mark>Automation</mark> <mark>Model Evaluation</mark> <mark>Python</mark> <mark>scikit-learn</mark> <mark>Tensorflow</mark>
       # ---
@@ -252,9 +271,9 @@ content:
           Gegen Ende meiner Ausbildung als Fachinformatiker fasste ich den Entschluss ein Studium der Informatik zu beginnen. Hier lernte ich viel über Themen 
           wie Datenstrukturen, Algorithmendesign und -analyse sowie Methodiken zur Problemlösung und Projektmanagement. 
 
-          In einer Projektarbeit an der Hochschule haben zwei weitere Studenten und ich ein webbasiertes Review-System mit dem `Python`-Framework `Flask` und `MySQL` 
+          In einer Projektarbeit an der Hochschule haben zwei weitere Studenten und ich ein webbasiertes Review-System mit dem *Python*-Framework *Flask* und *MySQL* 
           umgesetzt, welches dann für die Unterstützung einer Veranstaltung an der Hochschule genutzt wurde. Neben dem Studium arbeitete ich als Werkstudent bei einem 
-          Hersteller für Kassen- und bargeldlose Abrechnungssysteme und implementierte neue Features mit `Object Pascal`. 
+          Hersteller für Kassen- und bargeldlose Abrechnungssysteme und implementierte neue Features mit *Object Pascal*. 
 
           <br>
           <i>Studie zum Redesign der OpenDXM GlobalX Benutzeroberfläche zur Verbesserung der Usability</i>
@@ -262,7 +281,7 @@ content:
           Für meine Bachelorarbeit habe ich die <b>M</b>anaged <b>F</b>ile <b>T</b>ransfer Anwendung OpenDXM GlobalX hinsichtlich deren Usability untersucht. 
           Zunächst führte ich eine Eyetracking-Studie durch, um aktuell bestehende Usability-Probleme zu erkennen. Die dadurch gewonnenen Erkenntnisse sowie 
           die [Android Design Prinzipien](https://www.youtube.com/watch?v=s0HIP8EdlnE) nutzte ich bei der Erstellung eines neuen Designs. Hierfür implementierte 
-          ich einen interaktiven Prototypen mit `HTML5`, `JavaScript` und `CSS`. 
+          ich einen interaktiven Prototypen mit *HTML5*, *JavaScript* und *CSS*. 
 
           <mark>User Experience Research</mark> <mark>Eyetracking</mark> <mark>Rapid Prototyping</mark> <mark>HTML5</mark> <mark>JavaScript</mark> <mark>CSS</mark>
       - layout: top-middle
@@ -274,9 +293,9 @@ content:
           At the end of my apprenticeship as an IT specialist, I made the decision to study computer science. Here I learned a lot about topics such as data structures, 
           algorithm design and algorithm analysis as well as methodologies for problem solving and project management.
 
-          For a project at university, two other students and I implemented a web-based review system using the `Python`-framework` Flask` ​​and `MySQL`. 
+          For a project at university, two other students and I implemented a web-based review system using the *Python*-framework* Flask* ​​and *MySQL*. 
           This system was then used to support a class at the university. In addition to my studies, I had a job as a working student at a manufacturer of 
-          cash register and cashless accounting systems where I implemented new features with `Object Pascal`.
+          cash register and cashless accounting systems where I implemented new features with *Object Pascal*.
 
           <br>
           <i>A study for redesigning and improving the usability of the OpenDXM GlobalX User Interface</i>
@@ -284,7 +303,7 @@ content:
           In my bachelor thesis I examined the <b>M</b>anaged <b>F</b>ile <b>T</b>ransfer application OpenDXM GlobalX in regards to its usability. 
           I first carried out an eye tracking study to get data about usability problems of the application. I used the gained knowledge as well as 
           the [Android Design Principles](https://www.youtube.com/watch?v=s0HIP8EdlnE) when creating a new design proposal. For this I implemented an 
-          interactive prototype using `HTML5`,` JavaScript` and `CSS`.
+          interactive prototype using *HTML5*,* JavaScript* and *CSS*.
 
           <mark>User Experience Research</mark> <mark>Eyetracking</mark> <mark>Rapid Prototyping</mark> <mark>HTML5</mark> <mark>JavaScript</mark> <mark>CSS</mark>
       # ---
@@ -295,9 +314,9 @@ content:
         caption: 2010 - 2013
         description: |
           Während meiner Ausbildung habe ich am hausinternen, multilingualen <b>E</b>nterprise <b>R</b>esource <b>P</b>lanning System in einem kleinen Team von 
-          Entwicklern mitgearbeitet. Das ERP-System nutzte `MSSQL` zur Persistierung und wurde in der Programmiersprache `Object Pascal` in einem prozeduralem Stil 
-          geschrieben, wobei `Delphi` als IDE verwendet wurde. Als erste objektorientierte Sprache lernte ich `C#` in der Berufsschule und in meiner Freizeit `C++`. 
-          Die automatisierte Generierung verschiedenster Auswertungen sowie zugehöriger Visualisierungen mit `VBA` für verschiedene Fachabteilungen gehörte ebenfalls 
+          Entwicklern mitgearbeitet. Das ERP-System nutzte *MSSQL* zur Persistierung und wurde in der Programmiersprache *Object Pascal* in einem prozeduralem Stil 
+          geschrieben, wobei *Delphi* als IDE verwendet wurde. Als erste objektorientierte Sprache lernte ich *C#* in der Berufsschule und in meiner Freizeit *C++*. 
+          Die automatisierte Generierung verschiedenster Auswertungen sowie zugehöriger Visualisierungen mit *VBA* für verschiedene Fachabteilungen gehörte ebenfalls 
           zu meinen Aufgaben. 
 
           In meiner Abschlussarbeit erweiterte ich das hausinterne ERP-System um ein Kalkulationsmodul. Dies umfasste sowohl die Anforderungsanalyse, Planung, 
@@ -311,8 +330,8 @@ content:
         caption: 2010 - 2013
         description: |
           During my apprenticeship, I worked on an in-house, multilingual <b>E</b>nterprise <b>R</b>esource <b>P</b>lanning system in a small team of developers. 
-          The ERP system used `MSSQL` for persistence and was written in the programming language `Object Pascal` in a procedural style, using` Delphi` as IDE. 
-          I also learned `C#` as my first object-oriented language in vocational school and `C++` in my free time. Using `VBA` to automate the various evaluations 
+          The ERP system used *MSSQL* for persistence and was written in the programming language *Object Pascal* in a procedural style, using* Delphi* as IDE. 
+          I also learned *C#* as my first object-oriented language in vocational school and *C++* in my free time. Using *VBA* to automate the various evaluations 
           as well as generate respective visualizations for different departments were also part of my tasks. 
 
           In my thesis, I added a calculation module to the in-house ERP system. This included requirements analysis, planning, implementation and testing. 
