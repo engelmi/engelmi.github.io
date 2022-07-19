@@ -172,16 +172,16 @@ content:
       # ---
       - layout: top-middle
         language: de
-        title: Netlight Consulting
-        sub_title: IT-Consultant
+        title: Red Hat
+        sub_title: Software Engineer
         caption: Mai 2022 - heute
         description: | 
           Derzeit arbeite ich bei [Red Hat](https://www.redhat.com/) als Software Engineer.  
       - layout: top-middle
         language: en
-        title: Netlight Consulting
-        sub_title: IT-Consultant
-        caption: May 2019 - today
+        title: Red Hat
+        sub_title: Software Engineer
+        caption: Mai 2022 - heute
         description: | 
           I am currently working at [Red Hat](https://www.redhat.com/) as a Software Engineer. 
       # ---
